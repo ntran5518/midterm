@@ -1,0 +1,106 @@
+/* Nini Tran */
+/* 8855518 */
+
+body {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  font: 16px shorthand, sans-serif;
+}
+
+h1,
+h2 {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+footer {
+  clear: both;
+}
+footer p {
+  font-size: 14px;
+  color: #007700;
+}
+header,
+footer {
+  background-color: #faa4ee; /* Set your desired background color */
+}
+.structural {
+  border: 5px solid #e4d82d;
+  border-radius: 20px;
+  padding: 10px;
+  margin: auto;
+}
+.structural_image {
+  border: 5px solid #e4d82d;
+  padding: 10px;
+  margin: auto;
+}
+
+img {
+  border: 2px solid #000;
+  width: 90%;
+  height: 80%;
+}
+
+figure {
+  background-color: #f0f0f0;
+  width: 45%;
+  height: 60%;
+  margin: auto;
+  padding: 10px;
+}
+
+figure.left {
+  float: left;
+  width: 40%;
+}
+
+figure.right {
+  float: right;
+  width: 44%;
+}
+
+.clearing-element {
+  clear: both;
+}
+
+main {
+  float: left;
+  width: 65%;
+  height: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+aside {
+  float: right;
+  width: 30%;
+  height: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+figcaption {
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.custom-list {
+  list-style-type: square; /* Change the bullet style (e.g., to square) */
+  line-height: 1.5; /* Increase the line height */
+}
+
+q {
+  font-family: cursive; /* Set the font family to cursive */
+  font-style: italic; /* Apply italic font style */
+  font-size: 18px;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: #1142e0;
+  aside a:hover {
+    color: #e5ff00;
+  }
+}
+a:hover {
+  color: #e3f542; /* Change to your desired hover color */
+}
